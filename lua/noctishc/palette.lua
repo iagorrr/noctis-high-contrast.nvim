@@ -42,7 +42,6 @@ local colors = {
 	ui_orange = "#E8AB53",
 	ui2_orange = "#613214",
 	ui_purple = "#B180D7",
-
 	-- noctis high contrast
 
 	bg = "#000000",
@@ -52,12 +51,21 @@ local colors = {
 	fg = "#767676",
 	alt_fg = "#727272",
 
-        whiteText = "#f1f1f1",
+	whiteText = "#f1f1f1",
 
 	strongPurple = "#a000ff",
 	seriousYellow = "#e6ac00",
 	happyBlue = "#00a0ff",
-	niceBlue = "",
+	okBlue = "#00b4cc",
+	discretGray = "#888888",
+	darkerDiscretGray = "#111111",
+	sweetPink = "#ff669c",
+	pastelYellow = "#ffb966",
+	seaBlue = "#66ffbf",
+	errorRed = "#ff2020",
+	boringYellow = "#4f4200",
+	boringOrange = "#f44200",
+	okYellow = "#fff400",
 }
 
 return colors
