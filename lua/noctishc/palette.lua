@@ -6,7 +6,6 @@ local colors = {
 	gray = "#808080",
 	context = "#606060",
 	light_gray = "#cccccc",
-	menu_bg = "#202123",
 	red = "#D16969",
 	blue = "#569CD6",
 	vivid_blue = "#4FC1FF",
@@ -48,8 +47,10 @@ local colors = {
 
 	-- noctis high contrast
 	fullBlack = "#000000",
+
 	bg = "#000000",
 	alt_bg = "#0c0c0c",
+	menu_bg = "#0c0c0c",
 }
 
 return colors
