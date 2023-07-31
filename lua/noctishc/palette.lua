@@ -47,6 +47,7 @@ local colors = {
 	bg = "#000000",
 	alt_bg = "#0c0c0c",
 	menu_bg = "#000000",
+        bg_sel = "#444455",
 
 	fg = "#767676",
 	alt_fg = "#727272",
