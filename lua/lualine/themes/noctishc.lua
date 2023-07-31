@@ -1,33 +1,23 @@
-local colors = {
-  blue   = '#569cd6',
-  green  = '#6a9955',
-  purple = '#c586c0',
-  red1   = '#d16969',
-  yellow = '#dcdcaa',
-  orange = '#D7BA7D',
-  fg     = '#ababab',
-  -- bg     = '#007acc',
-  -- bg     = '#68217a',
-  bg     = '#252525',
-  gray  = '#333333',
-  -- light_gray  = '#5c6370',
-  gray3  = '#3e4452',
-}
+local c = require("noctishc.palette")
 
 return {
 	normal = {
-		a = { fg = colors.bg, bg = colors.blue },
-		b = { fg = colors.blue, bg = colors.gray },
-		c = { fg = colors.fg, bg = colors.bg },
+		a = { fg = c.whiteText, bg = c.bg },
+		b = { fg = c.whiteText, bg = c.bg },
+		c = { fg = c.whiteText, bg = c.bg },
+
+		x = { fg = c.whiteText, bg = c.bg },
+		y = { fg = c.whiteText, bg = c.bg },
+		z = { fg = c.whiteText, bg = c.bg },
 	},
-	insert = { a = { fg = colors.bg, bg = colors.green }, b = { fg = colors.green, bg = colors.gray } },
-	visual = { a = { fg = colors.bg, bg = colors.purple }, b = { fg = colors.purple, bg = colors.gray } },
-	command = { a = { fg = colors.bg, bg = colors.orange }, b = { fg = colors.orange, bg = colors.gray } },
-	replace = { a = { fg = colors.bg, bg = colors.red }, b = { fg = colors.red, bg = colors.gray } },
+	insert = { a = { fg = c.whiteText, bg = c.bg }, b = { fg = c.green, bg = c.bg } },
+	visual = { a = { fg = c.whiteText, bg = c.bg }, b = { fg = c.purple, bg = c.bg } },
+	command = { a = { fg = c.whiteText, bg = c.bg }, b = { fg = c.orange, bg = c.bg } },
+	replace = { a = { fg = c.whiteText, bg = c.bg }, b = { fg = c.red, bg = c.bg } },
 
 	inactive = {
-		a = { bg = colors.bg, fg = colors.blue },
-		b = { bg = colors.bg, fg = colors.gray, gui = "bold" },
-		c = { bg = colors.bg, fg = colors.gray },
+		a = { bg = c.bg, fg = c.blue },
+		b = { bg = c.bg, fg = c.gray, gui = "bold" },
+		c = { bg = c.bg, fg = c.gray },
 	},
 }

@@ -52,6 +52,8 @@ local colors = {
 	fg = "#767676",
 	alt_fg = "#727272",
 
+        whiteText = "#f1f1f1",
+
 	strongPurple = "#a000ff",
 	seriousYellow = "#e6ac00",
 	happyBlue = "#00a0ff",

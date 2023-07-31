@@ -305,7 +305,7 @@ theme.set_highlights = function()
 	hl(0, "QuickScopeSecondary", { fg = "#00dfff", bg = "NONE", underline = true })
 
 	-- Telescope
-	-- TODO: add telescope highlight to past items
+        -- TODO: add telescope highlight to past items
 	hl(0, "TelescopeSelection", { fg = "NONE", bg = c.alt_bg })
 	hl(0, "TelescopeSelectionCaret", { fg = c.seriousYellow, bg = c.alt_bg })
 	hl(0, "TelescopeMatching", { fg = c.seriosYellow, bg = "NONE", bold = true, italic = true })
