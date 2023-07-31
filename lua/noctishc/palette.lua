@@ -44,17 +44,18 @@ local colors = {
 	ui_purple = "#B180D7",
 
 	-- noctis high contrast
-	fullBlack = "#000000",
 
 	bg = "#000000",
 	alt_bg = "#0c0c0c",
-	menu_bg = "#0c0c0c",
+	menu_bg = "#000000",
 
 	fg = "#767676",
 	alt_fg = "#727272",
 
 	strongPurple = "#a000ff",
 	seriousYellow = "#e6ac00",
+	happyBlue = "#00a0ff",
+	niceBlue = "",
 }
 
 return colors

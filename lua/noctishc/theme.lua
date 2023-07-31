@@ -305,17 +305,18 @@ theme.set_highlights = function()
 	hl(0, "QuickScopeSecondary", { fg = "#00dfff", bg = "NONE", underline = true })
 
 	-- Telescope
-	hl(0, "TelescopeSelection", { fg = "NONE", bg = c.ui2_blue })
-	hl(0, "TelescopeSelectionCaret", { fg = c.red, bg = c.ui2_blue })
-	hl(0, "TelescopeMatching", { fg = c.info, bg = "NONE", bold = true, italic = true })
+	-- TODO: add telescope highlight to past items
+	hl(0, "TelescopeSelection", { fg = "NONE", bg = c.alt_bg })
+	hl(0, "TelescopeSelectionCaret", { fg = c.seriousYellow, bg = c.alt_bg })
+	hl(0, "TelescopeMatching", { fg = c.seriosYellow, bg = "NONE", bold = true, italic = true })
 	hl(0, "TelescopeBorder", { fg = c.alt_fg, bg = "NONE" })
 	hl(0, "TelescopeNormal", { fg = c.fg, bg = c.menu_bg })
 	hl(0, "TelescopePromptPrefix", { fg = c.hint, bg = "NONE" })
 	hl(0, "TelescopePromptTitle", { fg = c.seriousYellow, bg = "NONE", bold = true })
 	hl(0, "TelescopeResultsTitle", { fg = c.seriousYellow, bg = "NONE", bold = true })
 	hl(0, "TelescopePreviewTitle", { fg = c.seriousYellow, bg = "NONE", bold = true })
-	hl(0, "TelescopePromptCounter", { fg = c.red, bg = "NONE" })
-	hl(0, "TelescopePreviewHyphen", { fg = c.red, bg = "NONE" })
+	hl(0, "TelescopePromptCounter", { fg = c.seriousYellow, bg = "NONE" })
+	hl(0, "TelescopePreviewHyphen", { fg = c.seriousYellow, bg = "NONE" })
 
 	-- NvimTree
 	hl(0, "NvimTreeFolderIcon", { link = "Directory" })
