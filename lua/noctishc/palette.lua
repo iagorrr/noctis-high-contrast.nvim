@@ -1,6 +1,4 @@
 local colors = {
-	fg = "#D4D4D4",
-	alt_fg = "#a4a4a4",
 	line = "#3e3e3e",
 	dark_gray = "#404040",
 	gray = "#808080",
@@ -51,6 +49,12 @@ local colors = {
 	bg = "#000000",
 	alt_bg = "#0c0c0c",
 	menu_bg = "#0c0c0c",
+
+	fg = "#767676",
+	alt_fg = "#727272",
+
+	strongPurple = "#a000ff",
+	seriousYellow = "#e6ac00",
 }
 
 return colors
