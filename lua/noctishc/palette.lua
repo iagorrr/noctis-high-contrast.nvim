@@ -68,6 +68,8 @@ local colors = {
 	lightGray = "#ddd3cc",
 	boringOrange = "#f44200",
 	okYellow = "#fff400",
+
+	grayBlueFolder = "#9C9CC0",
 }
 
 return colors
