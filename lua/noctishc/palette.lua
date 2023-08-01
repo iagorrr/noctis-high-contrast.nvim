@@ -47,7 +47,7 @@ local colors = {
 	bg = "#000000",
 	alt_bg = "#0c0c0c",
 	menu_bg = "#000000",
-        bg_sel = "#444455",
+	bg_sel = "#444455",
 
 	fg = "#767676",
 	alt_fg = "#727272",
@@ -65,6 +65,7 @@ local colors = {
 	seaBlue = "#66ffbf",
 	errorRed = "#ff2020",
 	boringYellow = "#4f4200",
+	lightGray = "#ddd3cc",
 	boringOrange = "#f44200",
 	okYellow = "#fff400",
 }
