@@ -67,6 +67,8 @@ local colors = {
 	errorRed = "#ff2020",
 	boringYellow = "#4f4200",
 	lightGray = "#ddd3cc",
+
+	darkGray = "#404040",
 	boringOrange = "#f44200",
 	okYellow = "#fff400",
 
