@@ -58,6 +58,7 @@ local colors = {
 	seriousYellow = "#e6ac00",
 	happyBlue = "#00a0ff",
 	okBlue = "#00b4cc",
+	darkerOkBlue = "#00647c",
 	discretGray = "#888888",
 	darkerDiscretGray = "#111111",
 	sweetPink = "#ff669c",
