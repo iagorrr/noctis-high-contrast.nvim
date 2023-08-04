@@ -63,7 +63,6 @@ local colors = {
 	darkerDiscretGray = "#111111",
 	sweetPink = "#ff669c",
 	pastelYellow = "#ffb966",
-        isThisBege = "#ffbb99";
 	seaBlue = "#66ffbf",
 	errorRed = "#ff2020",
 	boringYellow = "#4f4200",

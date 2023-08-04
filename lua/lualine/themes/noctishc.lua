@@ -2,7 +2,7 @@ local c = require("noctishc.palette")
 
 return {
 	normal = {
-		a = { fg = c.whiteText, bg = c.bg },
+		a = { fg = c.whiteText, bg = c.okBlue },
 		b = { fg = c.whiteText, bg = c.bg },
 		c = { fg = c.whiteText, bg = c.bg },
 
