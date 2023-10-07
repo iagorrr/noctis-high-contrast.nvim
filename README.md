@@ -1,22 +1,19 @@
 # Noctis high contrast
 
-__🚧 Still under development, so there is some details missing 🚧__
+![demo](media/demo.png)
 
-![Neovim screenshot](media/dijkstra-neovim.png)
-![Vscode screenshot](media/dijkstra-vscode.png)
+The best high contrast theme for neovim.
 
-A beautiful high contrast theme for your neovim written in lua.
-
-This theme is originally from the [noctis high contrast from vscode](https://github.com/KamenKolev/noctis-hc), including the colors for code and plugins similar to those in vscode. It was built over the [darkplus.nvim](https://github.com/LunarVim/darkplus.nvim), which has most of the highlight used in vscode, so may some colors are not set yet.
+This theme is mostly based in the [noctis-hc](https://github.com/KamenKolev/noctis-hc).
 
 ## Supported plugins
 
-- [Telescope]()
-- [NvimTree]()
-- [Lualine]()
-- [GitSigns]()
+- [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+- [NvimTree](https://github.com/nvim-tree/nvim-tree.lua)
+- [Lualine](https://github.com/nvim-lualine/lualine.nvim)
+- [GitSigns](https://github.com/lewis6991/gitsigns.nvim)
 
-## Install
+## Installation
 
 - Lazy:
 
