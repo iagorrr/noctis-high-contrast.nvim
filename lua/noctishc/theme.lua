@@ -222,10 +222,11 @@ theme.set_highlights = function()
 	-- Whichkey
 	hl(0, "WhichKey", { fg = c.strongPurple, bg = "NONE" })
 	hl(0, "WhichKeySeperator", { fg = c.green, bg = "NONE" })
+	hl(0, "WhichKeySeparator", { fg = c.fg, bg = c.bg })
 	hl(0, "WhichKeyGroup", { fg = c.okBlue, bg = "NONE" })
 	hl(0, "WhichKeyDesc", { fg = c.fg, bg = "NONE" })
 	hl(0, "WhichKeyFloat", { fg = "NONE", bg = c.bg })
-
+  
 	-- Git
 	hl(0, "SignAdd", { fg = c.sign_add, bg = "NONE" })
 	hl(0, "SignChange", { fg = c.sign_change, bg = "NONE" })
